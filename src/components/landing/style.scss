@@ -1,0 +1,55 @@
+.search-form {
+  border: 1px solid #FFFFFF;
+  border-radius: 0.3rem;
+  padding: 20px;
+  background-color: transparent;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.search-btn {
+  background: #2187C3;
+  border: 1px solid #2187C3;
+  border-radius: 9px;
+  height: 70px;
+  width: 70px;
+
+  &:hover {
+    background: #51ace1;
+    border-color: #51ace1;
+  }
+}
+
+.one-number {
+  background-image: url('./imgs/1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem 0;
+}
+
+.two-number {
+  background-image: url('./imgs/2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem 0;
+}
+
+.three-number {
+  background-image: url('./imgs/3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem 0;
+}
+
+.four-number {
+  background-image: url('./imgs/4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem 0;
+}
